@@ -1,0 +1,25 @@
+body {
+    user-select: none;
+}
+
+#squares {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+}
+
+#replayButton{
+  display: none;
+}
+ 
+.square {
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+} 
